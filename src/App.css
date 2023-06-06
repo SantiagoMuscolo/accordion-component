@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 1400px;
+  height: 900px;
+  border-radius: 25px;
+}
+
+.container h1{
+  margin-bottom: 12%;
+  color: hsl(238, 29%, 16%);
+  font-size: 3rem;
+}

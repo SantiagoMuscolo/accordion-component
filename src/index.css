@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(273, 75%, 66%);
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .image {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .shadowPlatform {
+      width: 700px;
+      position: relative;
+      top: 450px;
+      right: 150px;
+  }
+
+  .illustrationBox {
+      position: relative;
+      width: 300px;
+      right: 36%;
+      bottom: 550px;
+  }
+
+  .girl {
+      position: relative;
+      width: 700px;
+      right: 25%;
+      bottom: 200px;
+  }
+}
+
+/* Estilos para dispositivos con pantalla mediana (entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .shadowPlatform {
+      width: 400px;
+      position: relative;
+      top: 250px;
+      right: 50px;
+  }
+
+  .illustrationBox {
+      position: relative;
+      width: 200px;
+      right: 20%;
+      bottom: 400px;
+  }
+
+  .girl {
+      position: relative;
+      width: 400px;
+      right: 15%;
+      bottom: 150px;
+  }
+
+  .container{
+    width: 1000px;
+  }
+}
+
+/* Estilos para dispositivos con pantalla pequeña (menor a 768px) */
+@media (max-width: 767px) {
+  .container{
+    width: 650px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  .image{
+    position: relative;
+    left: 5%;
+  }
+
+  .shadowPlatform {
+    width: 300px;
+    position: relative;
+    top: 130px;
+    right: 50px;
+}
+
+.illustrationBox {
+    position: relative;
+    width: 100px;
+    right: 20%;
+    bottom: 300px;
+}
+
+.girl {
+    position: relative;
+    width: 300px;
+    right: 15%;
+    bottom: 150px;
+}
+
+  .question{
+    position: relative;
+    bottom: 10px;
+  }
+
+  .question button {
+      font-size: 20px;
+  }
+
+  .question span {
+    font-size: 20px;
+}
+
+.question{
+  padding: 10px;
+}
+
+  .contenedor__content {
+      font-size: 13px;
+  }
+
+  .answer p {
+      font-size: 13px;
+  }
+
+  .container__faq{
+    position: relative;
+    bottom: 15%;
+  }
+}

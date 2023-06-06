@@ -1,0 +1,37 @@
+.question{
+    display: flex;
+    text-align: justify;
+    padding-bottom: 1%;
+    color:  hsl(237, 12%, 33%);
+    justify-content: space-between;
+}
+
+.question button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.question button img{
+    margin-left: 15px;
+}
+
+
+.contenedor__content{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    margin-bottom: 10%;
+    font-weight: 400px;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.answer p{
+    padding-bottom: 15px;
+    font-weight: 400px;
+}
